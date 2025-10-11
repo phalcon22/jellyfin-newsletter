@@ -56,4 +56,4 @@ send_email(
 
 ## What it looks like
 
-![Preview](https://raw.githubusercontent.com/phalcon22/jellyfin-newsletter/main/example.png)
+![Preview](https://raw.githubusercontent.com/phalcon22/jellyfin-newsletter/refs/heads/main/example.png)
