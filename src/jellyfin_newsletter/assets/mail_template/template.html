@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+{header}
+
+<body>
+    <table class="main-table" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td align="center">
+
+                <!-- Outer card -->
+                <table class="outer-card" cellpadding="0" cellspacing="0" border="0">
+
+                    <!-- Header Section -->
+                    <tr>
+                        <td class="section header">
+                            <img src="{server_logo_url}" alt="Jellyfin Logo"
+                                width="300">
+                            <h1>{header_text}</h1>
+                            <p>{random_fact}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                    <!-- Library Section -->
+                    <tr>
+                        <td class="library-stats">
+                            <table class="library-table" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="library-card-td">
+                                        <div class="library-card">
+                                            <div class="library-icon">🎬</div>
+                                            <p class="library-label">Movies</p>
+                                            <p class="library-number">{nb_movies}
+                                                <span class="new-badge">+ {nb_new_movies}</span>
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td class="library-card-td">
+                                        <div class="library-card">
+                                            <div class="library-icon">📺</div>
+                                            <p class="library-label">Series</p>
+                                            <p class="library-number">{nb_series}
+                                                <span class="new-badge">+ {nb_new_series}</span>
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td class="library-card-td">
+                                        <div class="library-card">
+                                            <div class="library-icon">🎞️</div>
+                                            <p class="library-label">Episodes</p>
+                                            <p class="library-number">{nb_episodes}
+                                                <span class="new-badge">+ {nb_new_episodes}</span>
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                    <!-- Movies Section -->
+                    <tr>
+                        <td class="section movie-block">
+                            {body}
+                        </td>
+                    </tr>
+                    <!-- Footer -->
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                    <tr>
+                        <td class="footer">
+                            <p>{footer}</p>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

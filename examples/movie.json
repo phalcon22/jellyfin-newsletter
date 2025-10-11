@@ -1,0 +1,1005 @@
+{
+  "Name": "The Batman",
+  "OriginalTitle": "The Batman",
+  "ServerId": "42f31480ab694e188c8bb27ca26d8768",
+  "Id": "c1ecc84371e88f4e436adf6111460fc9",
+  "Etag": "a4034878a460d286d641d74711d65ffc",
+  "DateCreated": "2025-03-24T03:48:35.0000000Z",
+  "CanDelete": true,
+  "CanDownload": true,
+  "HasSubtitles": true,
+  "Container": "mkv",
+  "SortName": "batman",
+  "PremiereDate": "2022-03-01T00:00:00.0000000Z",
+  "ExternalUrls": [
+    {
+      "Name": "IMDb",
+      "Url": "https://www.imdb.com/title/tt1877830"
+    },
+    {
+      "Name": "TheMovieDb",
+      "Url": "https://www.themoviedb.org/movie/414906"
+    },
+    {
+      "Name": "TheMovieDb",
+      "Url": "https://www.themoviedb.org/collection/948485"
+    }
+  ],
+  "MediaSources": [
+    {
+      "Protocol": "File",
+      "Id": "c1ecc84371e88f4e436adf6111460fc9",
+      "Path": "/media/Movies/The Batman (2022)/The Batman (2022).mkv",
+      "Type": "Default",
+      "Container": "mkv",
+      "Size": 34607051081,
+      "Name": "The Batman (2022)",
+      "IsRemote": false,
+      "ETag": "4f64d7ddc6aaa1edba49197a2f52a3e0",
+      "RunTimeTicks": 105716209999,
+      "ReadAtNativeFramerate": false,
+      "IgnoreDts": false,
+      "IgnoreIndex": false,
+      "GenPtsInput": false,
+      "SupportsTranscoding": true,
+      "SupportsDirectStream": true,
+      "SupportsDirectPlay": true,
+      "IsInfiniteStream": false,
+      "UseMostCompatibleTranscodingProfile": false,
+      "RequiresOpening": false,
+      "RequiresClosing": false,
+      "RequiresLooping": false,
+      "SupportsProbing": true,
+      "VideoType": "VideoFile",
+      "MediaStreams": [
+        {
+          "Codec": "hevc",
+          "Language": "mul",
+          "ColorSpace": "bt2020nc",
+          "ColorTransfer": "smpte2084",
+          "ColorPrimaries": "bt2020",
+          "DvVersionMajor": 1,
+          "DvVersionMinor": 0,
+          "DvProfile": 8,
+          "DvLevel": 6,
+          "RpuPresentFlag": 1,
+          "ElPresentFlag": 0,
+          "BlPresentFlag": 1,
+          "DvBlSignalCompatibilityId": 1,
+          "TimeBase": "1/1000",
+          "Title": "The Batman",
+          "VideoRange": "HDR",
+          "VideoRangeType": "DOVIWithHDR10",
+          "VideoDoViTitle": "Dolby Vision Profile 8.1 (HDR10)",
+          "AudioSpatialFormat": "None",
+          "DisplayTitle": "The Batman - 4K - HEVC - Dolby Vision Profile 8.1 (HDR10)",
+          "IsInterlaced": false,
+          "IsAVC": false,
+          "BitRate": 26188643,
+          "BitDepth": 10,
+          "RefFrames": 1,
+          "IsDefault": true,
+          "IsForced": false,
+          "IsHearingImpaired": false,
+          "Height": 1610,
+          "Width": 3840,
+          "AverageFrameRate": 23.976025,
+          "RealFrameRate": 23.976025,
+          "ReferenceFrameRate": 23.976025,
+          "Profile": "Main 10",
+          "Type": "Video",
+          "AspectRatio": "2.40:1",
+          "Index": 0,
+          "IsExternal": false,
+          "IsTextSubtitleStream": false,
+          "SupportsExternalStream": false,
+          "PixelFormat": "yuv420p10le",
+          "Level": 153,
+          "IsAnamorphic": false
+        },
+        {
+          "Codec": "truehd",
+          "Language": "fre",
+          "TimeBase": "1/1000",
+          "Title": "VFF",
+          "VideoRange": "Unknown",
+          "VideoRangeType": "Unknown",
+          "AudioSpatialFormat": "DolbyAtmos",
+          "LocalizedDefault": "Par défaut",
+          "LocalizedExternal": "Externe",
+          "DisplayTitle": "VFF - Fre - Dolby TrueHD + Dolby Atmos - 7.1 - Par défaut",
+          "IsInterlaced": false,
+          "IsAVC": false,
+          "ChannelLayout": "7.1",
+          "BitRate": 3025995,
+          "BitDepth": 24,
+          "Channels": 8,
+          "SampleRate": 48000,
+          "IsDefault": true,
+          "IsForced": false,
+          "IsHearingImpaired": false,
+          "Profile": "Dolby TrueHD + Dolby Atmos",
+          "Type": "Audio",
+          "Index": 1,
+          "IsExternal": false,
+          "IsTextSubtitleStream": false,
+          "SupportsExternalStream": false,
+          "Level": 0
+        },
+        {
+          "Codec": "truehd",
+          "Language": "eng",
+          "TimeBase": "1/1000",
+          "Title": "ENG",
+          "VideoRange": "Unknown",
+          "VideoRangeType": "Unknown",
+          "AudioSpatialFormat": "DolbyAtmos",
+          "LocalizedDefault": "Par défaut",
+          "LocalizedExternal": "Externe",
+          "DisplayTitle": "ENG - English - Dolby TrueHD + Dolby Atmos - 7.1",
+          "IsInterlaced": false,
+          "IsAVC": false,
+          "ChannelLayout": "7.1",
+          "BitRate": 3028133,
+          "BitDepth": 24,
+          "Channels": 8,
+          "SampleRate": 48000,
+          "IsDefault": false,
+          "IsForced": false,
+          "IsHearingImpaired": false,
+          "Profile": "Dolby TrueHD + Dolby Atmos",
+          "Type": "Audio",
+          "Index": 2,
+          "IsExternal": false,
+          "IsTextSubtitleStream": false,
+          "SupportsExternalStream": false,
+          "Level": 0
+        },
+        {
+          "Codec": "subrip",
+          "Language": "fre",
+          "TimeBase": "1/1000",
+          "Title": "VFF Forced",
+          "VideoRange": "Unknown",
+          "VideoRangeType": "Unknown",
+          "AudioSpatialFormat": "None",
+          "LocalizedUndefined": "Non défini",
+          "LocalizedDefault": "Par défaut",
+          "LocalizedForced": "Forcé",
+          "LocalizedExternal": "Externe",
+          "LocalizedHearingImpaired": "Malentendants",
+          "DisplayTitle": "VFF Forced - Fre - Par défaut - Forcé - SUBRIP",
+          "IsInterlaced": false,
+          "IsAVC": false,
+          "IsDefault": true,
+          "IsForced": true,
+          "IsHearingImpaired": false,
+          "Height": 0,
+          "Width": 0,
+          "Type": "Subtitle",
+          "Index": 3,
+          "IsExternal": false,
+          "IsTextSubtitleStream": true,
+          "SupportsExternalStream": true,
+          "Level": 0
+        },
+        {
+          "Codec": "subrip",
+          "Language": "fre",
+          "TimeBase": "1/1000",
+          "Title": "FR Full",
+          "VideoRange": "Unknown",
+          "VideoRangeType": "Unknown",
+          "AudioSpatialFormat": "None",
+          "LocalizedUndefined": "Non défini",
+          "LocalizedDefault": "Par défaut",
+          "LocalizedForced": "Forcé",
+          "LocalizedExternal": "Externe",
+          "LocalizedHearingImpaired": "Malentendants",
+          "DisplayTitle": "FR Full - Fre - SUBRIP",
+          "IsInterlaced": false,
+          "IsAVC": false,
+          "IsDefault": false,
+          "IsForced": false,
+          "IsHearingImpaired": false,
+          "Height": 0,
+          "Width": 0,
+          "Type": "Subtitle",
+          "Index": 4,
+          "IsExternal": false,
+          "IsTextSubtitleStream": true,
+          "SupportsExternalStream": true,
+          "Level": 0
+        },
+        {
+          "Codec": "subrip",
+          "Language": "eng",
+          "TimeBase": "1/1000",
+          "Title": "ENG SDH",
+          "VideoRange": "Unknown",
+          "VideoRangeType": "Unknown",
+          "AudioSpatialFormat": "None",
+          "LocalizedUndefined": "Non défini",
+          "LocalizedDefault": "Par défaut",
+          "LocalizedForced": "Forcé",
+          "LocalizedExternal": "Externe",
+          "LocalizedHearingImpaired": "Malentendants",
+          "DisplayTitle": "ENG SDH - English - Malentendants - SUBRIP",
+          "IsInterlaced": false,
+          "IsAVC": false,
+          "IsDefault": false,
+          "IsForced": false,
+          "IsHearingImpaired": true,
+          "Height": 0,
+          "Width": 0,
+          "Type": "Subtitle",
+          "Index": 5,
+          "IsExternal": false,
+          "IsTextSubtitleStream": true,
+          "SupportsExternalStream": true,
+          "Level": 0
+        }
+      ],
+      "MediaAttachments": [],
+      "Formats": [],
+      "Bitrate": 32242771,
+      "RequiredHttpHeaders": {},
+      "TranscodingSubProtocol": "http",
+      "DefaultAudioStreamIndex": 1,
+      "DefaultSubtitleStreamIndex": 3,
+      "HasSegments": false
+    }
+  ],
+  "CriticRating": 85,
+  "ProductionLocations": [
+    "United States of America"
+  ],
+  "Path": "/media/Movies/The Batman (2022)/The Batman (2022).mkv",
+  "EnableMediaSourceDisplay": true,
+  "OfficialRating": "FR-TP",
+  "ChannelId": null,
+  "Overview": "Durant les deux années passées à arpenter les rues en tant que Batman, Bruce Wayne s'est aventuré au cœur des ténèbres de Gotham City. Disposant de seulement quelques alliés de confiance au sein du monde corrompu qu'est l'élite de la ville, le justicier solitaire s'est imposé comme l'unique incarnation de la vengeance parmi ses concitoyens. Lorsqu'un meurtrier s'en prend aux plus grandes personnalités de Gotham à l'aide de machinations sadiques, le plus grand détective du monde se lance dans une enquête dans la pègre en suivant des indices mystérieux, croisant ainsi Selina Kyle, alias Catwoman, Oswald Cobblepot, alias le Pingouin, Carmine Falcone et Edward Nashton, alias le Riddler. Alors que les pistes et les plans du criminel s'éclaircissent, Batman doit tisser de nouveaux liens, démasquer le coupable et rétablir la justice à Gotham City, depuis trop longtemps empoisonnée par l'abus de pouvoir et la corruption.",
+  "Taglines": [
+    "Les masques vont tomber"
+  ],
+  "Genres": [
+    "Crime",
+    "Mystère",
+    "Thriller"
+  ],
+  "CommunityRating": 7.656,
+  "RunTimeTicks": 105716209999,
+  "PlayAccess": "Full",
+  "ProductionYear": 2022,
+  "RemoteTrailers": [
+    {
+      "Url": "https://www.youtube.com/watch?v=adJ9r7V5GfA"
+    },
+    {
+      "Url": "https://www.youtube.com/watch?v=hWRSJlp50rQ"
+    },
+    {
+      "Url": "https://www.youtube.com/watch?v=yimgJyWk2Dg"
+    },
+    {
+      "Url": "https://www.youtube.com/watch?v=ijgSQvOyoJo"
+    },
+    {
+      "Url": "https://www.youtube.com/watch?v=O2XDOjoYxgw"
+    }
+  ],
+  "ProviderIds": {
+    "TmdbCollection": "948485",
+    "Imdb": "tt1877830",
+    "Tmdb": "414906"
+  },
+  "IsHD": true,
+  "IsFolder": false,
+  "ParentId": "e675012a1892a87530d2c0b0d14a9026",
+  "Type": "Movie",
+  "People": [
+    {
+      "Name": "Robert Pattinson",
+      "Id": "e74421f3fe6d483169f6b65bdc6bddf2",
+      "Role": "Bruce Wayne / The Batman",
+      "Type": "Actor",
+      "PrimaryImageTag": "14c98db13ccf93505f2c1b112272217e",
+      "ImageBlurHashes": {
+        "Primary": {
+          "14c98db13ccf93505f2c1b112272217e": "dqF;.*xa0gNHIoj@xaa#EhR*xZs:M|azxaoMa$ayoJoL"
+        }
+      }
+    },
+    {
+      "Name": "Zoë Kravitz",
+      "Id": "eba750af202d7d98dbf75e00753bbe0c",
+      "Role": "Selina Kyle",
+      "Type": "Actor",
+      "PrimaryImageTag": "b069e53206f5764b26b39846e45799d0",
+      "ImageBlurHashes": {
+        "Primary": {
+          "b069e53206f5764b26b39846e45799d0": "dlHBlF?bI=I;4mIUM{WAx^R+xaxaRjxuxuofM{RPWAWB"
+        }
+      }
+    },
+    {
+      "Name": "Jeffrey Wright",
+      "Id": "ae89ffeabc055a0310f474e4fd0cfcc9",
+      "Role": "Lt. James Gordon",
+      "Type": "Actor",
+      "PrimaryImageTag": "16a455cc7011531dcf294c79c7ae6c52",
+      "ImageBlurHashes": {
+        "Primary": {
+          "16a455cc7011531dcf294c79c7ae6c52": "ddNJISnjyG^-^PxuI]R*%NfRNFa#xwj]%2xuXAoyV?Rj"
+        }
+      }
+    },
+    {
+      "Name": "Colin Farrell",
+      "Id": "854303ccff721a08b213ee2bae7cf515",
+      "Role": "Oz / The Penguin",
+      "Type": "Actor",
+      "PrimaryImageTag": "a7ebecec5115b5ad88c4c408e69b90ff",
+      "ImageBlurHashes": {
+        "Primary": {
+          "a7ebecec5115b5ad88c4c408e69b90ff": "dOKKG^%1Tw.7~VV[_3t7F|NHVXxa.7xa-oxa-payjbjs"
+        }
+      }
+    },
+    {
+      "Name": "Paul Dano",
+      "Id": "870784394413dc66acc3e8e6f2741f14",
+      "Role": "The Riddler",
+      "Type": "Actor",
+      "PrimaryImageTag": "f55f1d2a2e3bc31b45e35c21b90c48fa",
+      "ImageBlurHashes": {
+        "Primary": {
+          "f55f1d2a2e3bc31b45e35c21b90c48fa": "diL4Ql%2X:x]~qt6%gxuJBkDrqs:tlozsnkC%goMt7of"
+        }
+      }
+    },
+    {
+      "Name": "John Turturro",
+      "Id": "b79193ec51d23f93cdf57faa44e30b93",
+      "Role": "Carmine Falcone",
+      "Type": "Actor",
+      "PrimaryImageTag": "feba926bf893de9923e735f4826041f9",
+      "ImageBlurHashes": {
+        "Primary": {
+          "feba926bf893de9923e735f4826041f9": "dzK-IHoe.8-;~qj[xvt7R*j[RPRj%NofjFt7%gj]t7t7"
+        }
+      }
+    },
+    {
+      "Name": "Andy Serkis",
+      "Id": "7f47514bedde40b8bb5fb397809db277",
+      "Role": "Alfred",
+      "Type": "Actor",
+      "PrimaryImageTag": "aec57097af8b91385d758168552e3fde",
+      "ImageBlurHashes": {
+        "Primary": {
+          "aec57097af8b91385d758168552e3fde": "dPBDH9V@0Kxu-pj[Ioj[4.of-:RjD%a#%Mj@M{azxuj@"
+        }
+      }
+    },
+    {
+      "Name": "Peter Sarsgaard",
+      "Id": "7b1666866c6c61c5f03bad91e6b28b50",
+      "Role": "District Attorney Gil Colson",
+      "Type": "Actor",
+      "PrimaryImageTag": "dbf895cd9c3ed99b720f8464195ff70f",
+      "ImageBlurHashes": {
+        "Primary": {
+          "dbf895cd9c3ed99b720f8464195ff70f": "dcHBlCslpdx]~WjYo~W=E1ogi^WBT0t7s,%3ozWWxut7"
+        }
+      }
+    },
+    {
+      "Name": "Barry Keoghan",
+      "Id": "0365a42e4b5947833499d72229cdb392",
+      "Role": "Unseen Arkham Prisoner",
+      "Type": "Actor",
+      "PrimaryImageTag": "907c47c0c2cf0273aa613746bb182f75",
+      "ImageBlurHashes": {
+        "Primary": {
+          "907c47c0c2cf0273aa613746bb182f75": "dqMG-lxu.T.8R.V@bIflS~bHsSj?tSkCxut7xvoLWAof"
+        }
+      }
+    },
+    {
+      "Name": "Jayme Lawson",
+      "Id": "a2870cca75819ba862c7965a640642a1",
+      "Role": "Bella Reál",
+      "Type": "Actor",
+      "PrimaryImageTag": "8be5df258501a9cbf74e856253b84268",
+      "ImageBlurHashes": {
+        "Primary": {
+          "8be5df258501a9cbf74e856253b84268": "dbGHuN=_JCEL0LR.M_aexuR*%2%1E1R*s:j[NHbIaxkC"
+        }
+      }
+    },
+    {
+      "Name": "Gil Perez-Abraham",
+      "Id": "67db5ace1cd209af17b4ea28f84f8da9",
+      "Role": "Officer Martinez",
+      "Type": "Actor",
+      "PrimaryImageTag": "56fd047812f05ab290242c5edeca053b",
+      "ImageBlurHashes": {
+        "Primary": {
+          "56fd047812f05ab290242c5edeca053b": "dVJHHtMxyX%g~V?GXmkC9ZOss.n$9^IUjZt7WXaykCof"
+        }
+      }
+    },
+    {
+      "Name": "Peter McDonald",
+      "Id": "a8e1280880b6da9eb6c314862363d47d",
+      "Role": "Kenzie",
+      "Type": "Actor",
+      "PrimaryImageTag": "c2d2c3d0087196e21324b3d24723424a",
+      "ImageBlurHashes": {
+        "Primary": {
+          "c2d2c3d0087196e21324b3d24723424a": "dOKJ_X%LPB?b}@j?xuWCE%SLZ$bI%gx[?ax]tSoexuof"
+        }
+      }
+    },
+    {
+      "Name": "Con O'Neill",
+      "Id": "577bfd6ac4991c96ee96fdc95e6ebe79",
+      "Role": "Chief Mackenzie Bock",
+      "Type": "Actor",
+      "PrimaryImageTag": "7962b579f6c36538b86f9c306171b7c2",
+      "ImageBlurHashes": {
+        "Primary": {
+          "7962b579f6c36538b86f9c306171b7c2": "dHBMMabH0fxa-nfjt6s:57s:={NGIpjas:WCa#R*jZoL"
+        }
+      }
+    },
+    {
+      "Name": "Alex Ferns",
+      "Id": "608f6c2183ade7886b52d3be863a91ff",
+      "Role": "Commissioner Pete Savage",
+      "Type": "Actor",
+      "PrimaryImageTag": "52dc9fd49e5b6f0326581adb50d43fbd",
+      "ImageBlurHashes": {
+        "Primary": {
+          "52dc9fd49e5b6f0326581adb50d43fbd": "d+JQ~2xaXTt7~poft7t7o~bIsAs:tRofe.of%Lj[j?j@"
+        }
+      }
+    },
+    {
+      "Name": "Rupert Penry-Jones",
+      "Id": "0e668e164f0172cbd2a5c8d969ffc391",
+      "Role": "Mayor Don Mitchell, Jr.",
+      "Type": "Actor",
+      "PrimaryImageTag": "fe4bcae12ef2c0c8c7b7d1380bdaa17a",
+      "ImageBlurHashes": {
+        "Primary": {
+          "fe4bcae12ef2c0c8c7b7d1380bdaa17a": "dcEoY{s,0KozrpxuSiInE2M{%2xuNyWqnNjZIUof%MRj"
+        }
+      }
+    },
+    {
+      "Name": "Matt Reeves",
+      "Id": "6f53fcda0b24db983cb62b86a734fe90",
+      "Role": "Writer",
+      "Type": "Director",
+      "PrimaryImageTag": "30597dae60c5d746c8d7d79d109c6bc3",
+      "ImageBlurHashes": {
+        "Primary": {
+          "30597dae60c5d746c8d7d79d109c6bc3": "dNFhI$~B9^EM4:IoWqR+J8NH$$-US#t7xZoLE2Ios:t6"
+        }
+      }
+    },
+    {
+      "Name": "Matt Reeves",
+      "Id": "6f53fcda0b24db983cb62b86a734fe90",
+      "Role": "Director",
+      "Type": "Writer",
+      "PrimaryImageTag": "30597dae60c5d746c8d7d79d109c6bc3",
+      "ImageBlurHashes": {
+        "Primary": {
+          "30597dae60c5d746c8d7d79d109c6bc3": "dNFhI$~B9^EM4:IoWqR+J8NH$$-US#t7xZoLE2Ios:t6"
+        }
+      }
+    },
+    {
+      "Name": "Peter Craig",
+      "Id": "796eb39d2abeaa69340fb04c8b0b5a5c",
+      "Role": "Writer",
+      "Type": "Writer",
+      "PrimaryImageTag": "84465296caf1089c6c86c07f6ceb29b8",
+      "ImageBlurHashes": {
+        "Primary": {
+          "84465296caf1089c6c86c07f6ceb29b8": "dlF#UXt60eNGD%jsxvWWkqWVV?ofELWV%2s:I:ayxGof"
+        }
+      }
+    },
+    {
+      "Name": "Bob Kane",
+      "Id": "75528192c9a166575349142b50925728",
+      "Role": "Characters",
+      "Type": "Writer",
+      "PrimaryImageTag": "5e8b2875e3baf92a295f7925bed1894c",
+      "ImageBlurHashes": {
+        "Primary": {
+          "5e8b2875e3baf92a295f7925bed1894c": "dOH_=B?bM{t7?bof~q%M9FIURjj[t7Rjayxu-;t7?b%M"
+        }
+      }
+    },
+    {
+      "Name": "Bill Finger",
+      "Id": "fb95cbde91b13b914b31c3ba6e9a5ea1",
+      "Role": "Characters",
+      "Type": "Writer",
+      "PrimaryImageTag": "bdd0811e9917b8e03009a552ee47aa83",
+      "ImageBlurHashes": {
+        "Primary": {
+          "bdd0811e9917b8e03009a552ee47aa83": "dIGSDh_300?b?bWBWBxu00j[_3RjWBt7%Mofxuxu%Mt7"
+        }
+      }
+    },
+    {
+      "Name": "Matt Reeves",
+      "Id": "6f53fcda0b24db983cb62b86a734fe90",
+      "Role": "Producer",
+      "Type": "Producer",
+      "PrimaryImageTag": "30597dae60c5d746c8d7d79d109c6bc3",
+      "ImageBlurHashes": {
+        "Primary": {
+          "30597dae60c5d746c8d7d79d109c6bc3": "dNFhI$~B9^EM4:IoWqR+J8NH$$-US#t7xZoLE2Ios:t6"
+        }
+      }
+    },
+    {
+      "Name": "Dylan Clark",
+      "Id": "f4613d4fd8675a581ff4099a05dfa945",
+      "Role": "Producer",
+      "Type": "Producer",
+      "PrimaryImageTag": "19b5855fe04c6b0c16eb78683c06e0ce",
+      "ImageBlurHashes": {
+        "Primary": {
+          "19b5855fe04c6b0c16eb78683c06e0ce": "dPIM~I}Z4U=fZh-V?HnkBqNwn#OYM|Nbt8X9NINcxZkC"
+        }
+      }
+    },
+    {
+      "Name": "Simon Emanuel",
+      "Id": "6ca56e5b8a062a8a3696345070a2950d",
+      "Role": "Executive Producer",
+      "Type": "Producer",
+      "PrimaryImageTag": "4825f7942845f3ff113e5f0e7c34dc9d",
+      "ImageBlurHashes": {
+        "Primary": {
+          "4825f7942845f3ff113e5f0e7c34dc9d": "dWH1Y^$*0zXSaKj[x]t7ADkCrqR%S2RjxaofNHWWs,jE"
+        }
+      }
+    },
+    {
+      "Name": "Michael Uslan",
+      "Id": "7bc827254197a631ea0f2e3afb414409",
+      "Role": "Executive Producer",
+      "Type": "Producer",
+      "PrimaryImageTag": "4edb39d61cfa69f09ef98916e33e823f",
+      "ImageBlurHashes": {
+        "Primary": {
+          "4edb39d61cfa69f09ef98916e33e823f": "dNDcXT%M00RjM{fQM{Rj9FWB?bt7IUWBofayWBRjayt7"
+        }
+      }
+    },
+    {
+      "Name": "Walter Hamada",
+      "Id": "14bfb499853efe16829aa141b0ff6946",
+      "Role": "Executive Producer",
+      "Type": "Producer",
+      "PrimaryImageTag": "7a8d4d1c9c236ac60baedbed3ef49e3e",
+      "ImageBlurHashes": {
+        "Primary": {
+          "7a8d4d1c9c236ac60baedbed3ef49e3e": "dGAvqat70yW=$es:T0Rk9ZRj%1t7TKbHivn%NGof%2ae"
+        }
+      }
+    },
+    {
+      "Name": "Chantal Nong Vo",
+      "Id": "5a03ed9740a527fc547e0024874257ab",
+      "Role": "Executive Producer",
+      "Type": "Producer",
+      "PrimaryImageTag": "27898b8f196d77dcacbc507638449f36",
+      "ImageBlurHashes": {
+        "Primary": {
+          "27898b8f196d77dcacbc507638449f36": "dOD]6$NH0e?H-MWAW=j;5Yt7-UM}IToet8jYNLWBs,WC"
+        }
+      }
+    },
+    {
+      "Name": "Toby Hefferman",
+      "Id": "23264176e8aaaf619e7683d99022c8f1",
+      "Role": "Associate Producer",
+      "Type": "Producer",
+      "PrimaryImageTag": "6c3d28ed5962b9e34d528461ca0ea468",
+      "ImageBlurHashes": {
+        "Primary": {
+          "6c3d28ed5962b9e34d528461ca0ea468": "daG8[%_NKQI;?bxuo#oz9aIUw^xuX9WBj]ogS$WVxaxa"
+        }
+      }
+    }
+  ],
+  "Studios": [
+    {
+      "Name": "6th & Idaho Motion Picture Company",
+      "Id": "ea6c58c08e21bc89e898b3c531ac721a"
+    },
+    {
+      "Name": "Dylan Clark Productions",
+      "Id": "3264dbda28921164fe46ed1cbc2be66a"
+    },
+    {
+      "Name": "DC Films",
+      "Id": "ce81687193d319adbfdd85b68ecbeed6"
+    },
+    {
+      "Name": "Warner Bros. Pictures",
+      "Id": "3fc63208ae63fa64a67db18e32c13476"
+    }
+  ],
+  "GenreItems": [
+    {
+      "Name": "Crime",
+      "Id": "83a9dab21914792744c8fb23b9925dc6"
+    },
+    {
+      "Name": "Mystère",
+      "Id": "f8ae5ff2b2b9906bb304e5abcb0f482d"
+    },
+    {
+      "Name": "Thriller",
+      "Id": "4936f5b1a6f84f0b0aa2657368a5b364"
+    }
+  ],
+  "LocalTrailerCount": 0,
+  "UserData": {
+    "PlaybackPositionTicks": 0,
+    "PlayCount": 1,
+    "IsFavorite": false,
+    "LastPlayedDate": "2025-04-30T17:29:24.5368439Z",
+    "Played": false,
+    "Key": "414906",
+    "ItemId": "00000000000000000000000000000000"
+  },
+  "SpecialFeatureCount": 0,
+  "DisplayPreferencesId": "dbf7709c41faaa746463d67978eb863d",
+  "Tags": [
+    "police",
+    "psychopath",
+    "secret identity",
+    "crime fighter",
+    "superhero",
+    "nightclub",
+    "politician",
+    "based on comic",
+    "vigilante",
+    "organized crime",
+    "serial killer",
+    "millionaire",
+    "social injustice",
+    "murder investigation",
+    "aftercreditsstinger",
+    "masked superhero",
+    "political corruption",
+    "neo-noir",
+    "vengeance",
+    "mayoral election",
+    "urban gothic"
+  ],
+  "PrimaryImageAspectRatio": 0.6666666666666666,
+  "MediaStreams": [
+    {
+      "Codec": "hevc",
+      "Language": "mul",
+      "ColorSpace": "bt2020nc",
+      "ColorTransfer": "smpte2084",
+      "ColorPrimaries": "bt2020",
+      "DvVersionMajor": 1,
+      "DvVersionMinor": 0,
+      "DvProfile": 8,
+      "DvLevel": 6,
+      "RpuPresentFlag": 1,
+      "ElPresentFlag": 0,
+      "BlPresentFlag": 1,
+      "DvBlSignalCompatibilityId": 1,
+      "TimeBase": "1/1000",
+      "Title": "The Batman",
+      "VideoRange": "HDR",
+      "VideoRangeType": "DOVIWithHDR10",
+      "VideoDoViTitle": "Dolby Vision Profile 8.1 (HDR10)",
+      "AudioSpatialFormat": "None",
+      "DisplayTitle": "The Batman - 4K - HEVC - Dolby Vision Profile 8.1 (HDR10)",
+      "IsInterlaced": false,
+      "IsAVC": false,
+      "BitRate": 26188643,
+      "BitDepth": 10,
+      "RefFrames": 1,
+      "IsDefault": true,
+      "IsForced": false,
+      "IsHearingImpaired": false,
+      "Height": 1610,
+      "Width": 3840,
+      "AverageFrameRate": 23.976025,
+      "RealFrameRate": 23.976025,
+      "ReferenceFrameRate": 23.976025,
+      "Profile": "Main 10",
+      "Type": "Video",
+      "AspectRatio": "2.40:1",
+      "Index": 0,
+      "IsExternal": false,
+      "IsTextSubtitleStream": false,
+      "SupportsExternalStream": false,
+      "PixelFormat": "yuv420p10le",
+      "Level": 153,
+      "IsAnamorphic": false
+    },
+    {
+      "Codec": "truehd",
+      "Language": "fre",
+      "TimeBase": "1/1000",
+      "Title": "VFF",
+      "VideoRange": "Unknown",
+      "VideoRangeType": "Unknown",
+      "AudioSpatialFormat": "DolbyAtmos",
+      "LocalizedDefault": "Par défaut",
+      "LocalizedExternal": "Externe",
+      "DisplayTitle": "VFF - Fre - Dolby TrueHD + Dolby Atmos - 7.1 - Par défaut",
+      "IsInterlaced": false,
+      "IsAVC": false,
+      "ChannelLayout": "7.1",
+      "BitRate": 3025995,
+      "BitDepth": 24,
+      "Channels": 8,
+      "SampleRate": 48000,
+      "IsDefault": true,
+      "IsForced": false,
+      "IsHearingImpaired": false,
+      "Profile": "Dolby TrueHD + Dolby Atmos",
+      "Type": "Audio",
+      "Index": 1,
+      "IsExternal": false,
+      "IsTextSubtitleStream": false,
+      "SupportsExternalStream": false,
+      "Level": 0
+    },
+    {
+      "Codec": "truehd",
+      "Language": "eng",
+      "TimeBase": "1/1000",
+      "Title": "ENG",
+      "VideoRange": "Unknown",
+      "VideoRangeType": "Unknown",
+      "AudioSpatialFormat": "DolbyAtmos",
+      "LocalizedDefault": "Par défaut",
+      "LocalizedExternal": "Externe",
+      "DisplayTitle": "ENG - English - Dolby TrueHD + Dolby Atmos - 7.1",
+      "IsInterlaced": false,
+      "IsAVC": false,
+      "ChannelLayout": "7.1",
+      "BitRate": 3028133,
+      "BitDepth": 24,
+      "Channels": 8,
+      "SampleRate": 48000,
+      "IsDefault": false,
+      "IsForced": false,
+      "IsHearingImpaired": false,
+      "Profile": "Dolby TrueHD + Dolby Atmos",
+      "Type": "Audio",
+      "Index": 2,
+      "IsExternal": false,
+      "IsTextSubtitleStream": false,
+      "SupportsExternalStream": false,
+      "Level": 0
+    },
+    {
+      "Codec": "subrip",
+      "Language": "fre",
+      "TimeBase": "1/1000",
+      "Title": "VFF Forced",
+      "VideoRange": "Unknown",
+      "VideoRangeType": "Unknown",
+      "AudioSpatialFormat": "None",
+      "LocalizedUndefined": "Non défini",
+      "LocalizedDefault": "Par défaut",
+      "LocalizedForced": "Forcé",
+      "LocalizedExternal": "Externe",
+      "LocalizedHearingImpaired": "Malentendants",
+      "DisplayTitle": "VFF Forced - Fre - Par défaut - Forcé - SUBRIP",
+      "IsInterlaced": false,
+      "IsAVC": false,
+      "IsDefault": true,
+      "IsForced": true,
+      "IsHearingImpaired": false,
+      "Height": 0,
+      "Width": 0,
+      "Type": "Subtitle",
+      "Index": 3,
+      "IsExternal": false,
+      "IsTextSubtitleStream": true,
+      "SupportsExternalStream": true,
+      "Level": 0
+    },
+    {
+      "Codec": "subrip",
+      "Language": "fre",
+      "TimeBase": "1/1000",
+      "Title": "FR Full",
+      "VideoRange": "Unknown",
+      "VideoRangeType": "Unknown",
+      "AudioSpatialFormat": "None",
+      "LocalizedUndefined": "Non défini",
+      "LocalizedDefault": "Par défaut",
+      "LocalizedForced": "Forcé",
+      "LocalizedExternal": "Externe",
+      "LocalizedHearingImpaired": "Malentendants",
+      "DisplayTitle": "FR Full - Fre - SUBRIP",
+      "IsInterlaced": false,
+      "IsAVC": false,
+      "IsDefault": false,
+      "IsForced": false,
+      "IsHearingImpaired": false,
+      "Height": 0,
+      "Width": 0,
+      "Type": "Subtitle",
+      "Index": 4,
+      "IsExternal": false,
+      "IsTextSubtitleStream": true,
+      "SupportsExternalStream": true,
+      "Level": 0
+    },
+    {
+      "Codec": "subrip",
+      "Language": "eng",
+      "TimeBase": "1/1000",
+      "Title": "ENG SDH",
+      "VideoRange": "Unknown",
+      "VideoRangeType": "Unknown",
+      "AudioSpatialFormat": "None",
+      "LocalizedUndefined": "Non défini",
+      "LocalizedDefault": "Par défaut",
+      "LocalizedForced": "Forcé",
+      "LocalizedExternal": "Externe",
+      "LocalizedHearingImpaired": "Malentendants",
+      "DisplayTitle": "ENG SDH - English - Malentendants - SUBRIP",
+      "IsInterlaced": false,
+      "IsAVC": false,
+      "IsDefault": false,
+      "IsForced": false,
+      "IsHearingImpaired": true,
+      "Height": 0,
+      "Width": 0,
+      "Type": "Subtitle",
+      "Index": 5,
+      "IsExternal": false,
+      "IsTextSubtitleStream": true,
+      "SupportsExternalStream": true,
+      "Level": 0
+    }
+  ],
+  "VideoType": "VideoFile",
+  "ImageTags": {
+    "Primary": "2bcfbe3506ebe079d47e6637a47533fb",
+    "Logo": "af2519086346cd980c5f2c42899b6127",
+    "Thumb": "343c93dc494618b59ccbfb96cf617f91"
+  },
+  "BackdropImageTags": [
+    "e5a9e2b316127263c6cd083dc96a4a86"
+  ],
+  "ImageBlurHashes": {
+    "Backdrop": {
+      "e5a9e2b316127263c6cd083dc96a4a86": "WhL*K8jZ|w$5Jl,s]TSMN]a|N]WpsoSMN]jtjtWp,sa|o1o1o1o1"
+    },
+    "Primary": {
+      "2bcfbe3506ebe079d47e6637a47533fb": "dzJ_aCjt,Y$5|bo1wxsU$5a|JlWpwxSMN]WpsUjtjtjt"
+    },
+    "Logo": {
+      "af2519086346cd980c5f2c42899b6127": "NaL7YrjtJlsUwxjt6hfQSMSMsUo12Eo1sUa|Wpo1"
+    },
+    "Thumb": {
+      "343c93dc494618b59ccbfb96cf617f91": "WmJZP4~9^$%LS#tQ#,M|aKaLRkn$D,e:NHj[s:afWDxZa#oeoeWC"
+    }
+  },
+  "Chapters": [
+    {
+      "StartPositionTicks": 0,
+      "Name": "Chapter 01",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 7212200000,
+      "Name": "Chapter 02",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 14016920000,
+      "Name": "Chapter 03",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 19138700000,
+      "Name": "Chapter 04",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 25044190000,
+      "Name": "Chapter 05",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 30967190000,
+      "Name": "Chapter 06",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 36129430000,
+      "Name": "Chapter 07",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 42324370000,
+      "Name": "Chapter 08",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 47151690000,
+      "Name": "Chapter 09",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 53545990000,
+      "Name": "Chapter 10",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 61531890000,
+      "Name": "Chapter 11",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 67369390000,
+      "Name": "Chapter 12",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 71012610000,
+      "Name": "Chapter 13",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 77800220000,
+      "Name": "Chapter 14",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 84745080000,
+      "Name": "Chapter 15",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 88513840000,
+      "Name": "Chapter 16",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 95161730000,
+      "Name": "Chapter 17",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    },
+    {
+      "StartPositionTicks": 100181330000,
+      "Name": "Chapter 18",
+      "ImageDateModified": "0001-01-01T00:00:00.0000000Z"
+    }
+  ],
+  "Trickplay": {},
+  "LocationType": "FileSystem",
+  "MediaType": "Video",
+  "LockedFields": [],
+  "LockData": false,
+  "Width": 3840,
+  "Height": 1610
+}

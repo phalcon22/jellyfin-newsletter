@@ -1,0 +1,142 @@
+{
+  "Name": "Saison 1",
+  "ServerId": "42f31480ab694e188c8bb27ca26d8768",
+  "Id": "7d8555a6251cec8a8c80ae10a30b72ec",
+  "Etag": "8f7a3fbf0a935a6231e1e5044ca54fdf",
+  "DateCreated": "2025-03-27T19:36:23.0000000Z",
+  "CanDelete": true,
+  "CanDownload": false,
+  "SortName": "saison 0000000001",
+  "ForcedSortName": "Saison 1",
+  "PremiereDate": "2015-10-31T00:00:00.0000000Z",
+  "ExternalUrls": [],
+  "Path": "/media/Series/Ash vs Evil Dead (2015)/Season 01",
+  "EnableMediaSourceDisplay": true,
+  "ChannelId": null,
+  "Overview": "Lorsqu'un fléau mortel menace l'humanité, Ash se voit contraint d'affronter ses démons. Au sens propre comme au figuré.",
+  "Taglines": [],
+  "Genres": [],
+  "PlayAccess": "Full",
+  "ProductionYear": 2015,
+  "IndexNumber": 1,
+  "RemoteTrailers": [],
+  "ProviderIds": {
+    "Tvdb": "626353"
+  },
+  "IsFolder": true,
+  "ParentId": "d09e9c16be7e13cb618718172e7b8009",
+  "Type": "Season",
+  "People": [
+    {
+      "Name": "Bruce Campbell",
+      "Id": "aa031bff6070f4ce5dc774a0fcc42f13",
+      "Role": "Ashley 'Ash' J. Williams",
+      "Type": "Actor",
+      "PrimaryImageTag": "0c6a39d1005f0b5302096a54d2e4dc37",
+      "ImageBlurHashes": {
+        "Primary": {
+          "0c6a39d1005f0b5302096a54d2e4dc37": "dIE_ji57AV~B%0WC%2t69vs:RPIpI;ofn%R*X5t6xZj["
+        }
+      }
+    },
+    {
+      "Name": "Ray Santiago",
+      "Id": "402d2613295634fd5f7e0a24edc1d884",
+      "Role": "Pablo Simon Bolivar",
+      "Type": "Actor",
+      "PrimaryImageTag": "805b347b26782cbb8a184ec1df8e9647",
+      "ImageBlurHashes": {
+        "Primary": {
+          "805b347b26782cbb8a184ec1df8e9647": "dLHKX+t65l^*IANG9aNG0#o2xDNG9uW;-psmofs:xaof"
+        }
+      }
+    },
+    {
+      "Name": "Dana DeLorenzo",
+      "Id": "d584ebee09bd668747a42c73d000833b",
+      "Role": "Kelly Maxwell",
+      "Type": "Actor",
+      "PrimaryImageTag": "8f42223e46c68b78b2ecc45ce0b29f24",
+      "ImageBlurHashes": {
+        "Primary": {
+          "8f42223e46c68b78b2ecc45ce0b29f24": "dBCh{29uJ-0fOZ^j5RX8AZEM-p=|56Sh={-pt7nixtN^"
+        }
+      }
+    },
+    {
+      "Name": "Lucy Lawless",
+      "Id": "4fc0f416adf12415272f223144c31871",
+      "Role": "Ruby Knowby",
+      "Type": "Actor",
+      "PrimaryImageTag": "2865ca72f6dbdc7d3e27c082a1d736c9",
+      "ImageBlurHashes": {
+        "Primary": {
+          "2865ca72f6dbdc7d3e27c082a1d736c9": "dMHm_g^Q1LJByDR*~B%2yDX8-p%2_2t7x[%2^*WqS2xt"
+        }
+      }
+    },
+    {
+      "Name": "Jill Marie Jones",
+      "Id": "d9eed7245c0381dcdeb03ba0fa6cac71",
+      "Role": "Amanda Fisher",
+      "Type": "Actor",
+      "ImageBlurHashes": {
+        "Primary": {}
+      }
+    }
+  ],
+  "Studios": [],
+  "GenreItems": [],
+  "ParentLogoItemId": "d09e9c16be7e13cb618718172e7b8009",
+  "ParentBackdropItemId": "d09e9c16be7e13cb618718172e7b8009",
+  "ParentBackdropImageTags": [
+    "878b8043d9d437a4cb8dca3e279d9575"
+  ],
+  "LocalTrailerCount": 0,
+  "UserData": {
+    "PlayedPercentage": 0,
+    "UnplayedItemCount": 10,
+    "PlaybackPositionTicks": 0,
+    "PlayCount": 0,
+    "IsFavorite": false,
+    "Played": false,
+    "Key": "296295001",
+    "ItemId": "00000000000000000000000000000000"
+  },
+  "RecursiveItemCount": 10,
+  "ChildCount": 10,
+  "SeriesName": "Ash vs Evil Dead",
+  "SeriesId": "d09e9c16be7e13cb618718172e7b8009",
+  "SpecialFeatureCount": 0,
+  "DisplayPreferencesId": "dfd065f5787fb957a750d76dcf835aad",
+  "Tags": [],
+  "PrimaryImageAspectRatio": 0.6666666666666666,
+  "SeriesPrimaryImageTag": "3996a64571de3667baecda085908ff73",
+  "ImageTags": {
+    "Primary": "40186eba0bba9f17816bd3f0caf32e14"
+  },
+  "BackdropImageTags": [],
+  "ParentLogoImageTag": "0190e099963ee3bfa6b238a8373c923a",
+  "ImageBlurHashes": {
+    "Primary": {
+      "40186eba0bba9f17816bd3f0caf32e14": "dEBM0;}@wJ=yz;-Bt7jF-qs;R+S5-U$*$*s:Din$xan$",
+      "3996a64571de3667baecda085908ff73": "dEFE.d9tEL^+~BE1s.-pE1NItS%M?aI:9uni57?GMyIp"
+    },
+    "Logo": {
+      "0190e099963ee3bfa6b238a8373c923a": "NeHBYxE1IU-;IoWCe.xtNGofRjay0LNGozWBt7s:"
+    },
+    "Thumb": {
+      "a41457b55f1876950a4031e0d9ab62fa": "WMD+PXs.0LtR9ZD*^+ofIoxuRjIUIo%LxaIVRkR*IVxaxtIVNGkW"
+    },
+    "Backdrop": {
+      "878b8043d9d437a4cb8dca3e279d9575": "WZHw.QIo?HxtNGkVxa0LWVnjoLxakCM{S#aKR+of^+MxtRw^Iokq"
+    }
+  },
+  "SeriesStudio": "Starz",
+  "ParentThumbItemId": "d09e9c16be7e13cb618718172e7b8009",
+  "ParentThumbImageTag": "a41457b55f1876950a4031e0d9ab62fa",
+  "LocationType": "FileSystem",
+  "MediaType": "Unknown",
+  "LockedFields": [],
+  "LockData": false
+}

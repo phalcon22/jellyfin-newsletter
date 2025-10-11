@@ -1,0 +1,203 @@
+{
+  "Name": "Ash vs Evil Dead",
+  "OriginalTitle": "Ash vs Evil Dead",
+  "ServerId": "42f31480ab694e188c8bb27ca26d8768",
+  "Id": "d09e9c16be7e13cb618718172e7b8009",
+  "Etag": "904cab87466bc665345e461927a58798",
+  "DateCreated": "2025-03-27T17:15:59.0000000Z",
+  "DateLastMediaAdded": "2024-12-30T18:17:29.0000000Z",
+  "CanDelete": true,
+  "CanDownload": false,
+  "SortName": "ash vs evil dead",
+  "ForcedSortName": "Ash vs Evil Dead",
+  "PremiereDate": "2015-10-31T00:00:00.0000000Z",
+  "ExternalUrls": [
+    {
+      "Name": "IMDb",
+      "Url": "https://www.imdb.com/title/tt4189022"
+    },
+    {
+      "Name": "TheMovieDb",
+      "Url": "https://www.themoviedb.org/tv/62264"
+    },
+    {
+      "Name": "TheTVDB",
+      "Url": "https://www.thetvdb.com/?tab=series&id=296295"
+    },
+    {
+      "Name": "Zap2It",
+      "Url": "http://tvlistings.zap2it.com/overview.html?programSeriesId=EP02252539"
+    }
+  ],
+  "Path": "/media/Series/Ash vs Evil Dead (2015)",
+  "EnableMediaSourceDisplay": true,
+  "OfficialRating": "FR-18",
+  "ChannelId": null,
+  "Overview": "Alors qu'il vit caché depuis 30 ans, Ash se voit contraint de reprendre du service et d'affronter ses démons. Au sens propre comme au figuré. Cependant cette fois, il n'est plus seul pour combattre les forces du Mal.",
+  "Taglines": [],
+  "Genres": [
+    "Comédie",
+    "Action & Adventure",
+    "Science-Fiction & Fantastique"
+  ],
+  "CommunityRating": 7.717,
+  "CumulativeRunTimeTicks": 25800000000,
+  "RunTimeTicks": 25800000000,
+  "PlayAccess": "Full",
+  "ProductionYear": 2015,
+  "RemoteTrailers": [
+    {
+      "Url": "https://www.youtube.com/watch?v=H-udky-EMfQ"
+    }
+  ],
+  "ProviderIds": {
+    "Imdb": "tt4189022",
+    "Tmdb": "62264",
+    "Tvdb": "296295",
+    "TvRage": "46180",
+    "Zap2It": "EP02252539"
+  },
+  "IsFolder": true,
+  "ParentId": "0d4d8e78db9beac67eb93fed59ef1c86",
+  "Type": "Series",
+  "People": [
+    {
+      "Name": "Bruce Campbell",
+      "Id": "aa031bff6070f4ce5dc774a0fcc42f13",
+      "Role": "Ashley 'Ash' J. Williams",
+      "Type": "Actor",
+      "PrimaryImageTag": "0c6a39d1005f0b5302096a54d2e4dc37",
+      "ImageBlurHashes": {
+        "Primary": {
+          "0c6a39d1005f0b5302096a54d2e4dc37": "dIE_ji57AV~B%0WC%2t69vs:RPIpI;ofn%R*X5t6xZj["
+        }
+      }
+    },
+    {
+      "Name": "Ray Santiago",
+      "Id": "402d2613295634fd5f7e0a24edc1d884",
+      "Role": "Pablo Simon Bolivar",
+      "Type": "Actor",
+      "PrimaryImageTag": "805b347b26782cbb8a184ec1df8e9647",
+      "ImageBlurHashes": {
+        "Primary": {
+          "805b347b26782cbb8a184ec1df8e9647": "dLHKX+t65l^*IANG9aNG0#o2xDNG9uW;-psmofs:xaof"
+        }
+      }
+    },
+    {
+      "Name": "Dana DeLorenzo",
+      "Id": "d584ebee09bd668747a42c73d000833b",
+      "Role": "Kelly Maxwell",
+      "Type": "Actor",
+      "PrimaryImageTag": "8f42223e46c68b78b2ecc45ce0b29f24",
+      "ImageBlurHashes": {
+        "Primary": {
+          "8f42223e46c68b78b2ecc45ce0b29f24": "dBCh{29uJ-0fOZ^j5RX8AZEM-p=|56Sh={-pt7nixtN^"
+        }
+      }
+    },
+    {
+      "Name": "Lucy Lawless",
+      "Id": "4fc0f416adf12415272f223144c31871",
+      "Role": "Ruby Knowby",
+      "Type": "Actor",
+      "PrimaryImageTag": "2865ca72f6dbdc7d3e27c082a1d736c9",
+      "ImageBlurHashes": {
+        "Primary": {
+          "2865ca72f6dbdc7d3e27c082a1d736c9": "dMHm_g^Q1LJByDR*~B%2yDX8-p%2_2t7x[%2^*WqS2xt"
+        }
+      }
+    },
+    {
+      "Name": "Arielle O'Neill",
+      "Id": "c8115fff7716eab285e1d9119e202805",
+      "Role": "Brandy Barr",
+      "Type": "Actor",
+      "PrimaryImageTag": "e8e89e7af249dbf9c273271168e16ba2",
+      "ImageBlurHashes": {
+        "Primary": {
+          "e8e89e7af249dbf9c273271168e16ba2": "dRFhL;%10gIptQjZtRS4I;R*%1s:-pofMyxGE2WC%Lt7"
+        }
+      }
+    }
+  ],
+  "Studios": [
+    {
+      "Name": "Starz",
+      "Id": "b08df42a4b754b31c641572fab4d82ea"
+    }
+  ],
+  "GenreItems": [
+    {
+      "Name": "Comédie",
+      "Id": "24db514c69de5ddeac2b4d6a5e016e9b"
+    },
+    {
+      "Name": "Action & Adventure",
+      "Id": "d3d3728a0f119813db4c7733da59771a"
+    },
+    {
+      "Name": "Science-Fiction & Fantastique",
+      "Id": "fa2e33714dc2f0fc46afed6601e93359"
+    }
+  ],
+  "LocalTrailerCount": 0,
+  "UserData": {
+    "PlayedPercentage": 0,
+    "UnplayedItemCount": 30,
+    "PlaybackPositionTicks": 0,
+    "PlayCount": 0,
+    "IsFavorite": false,
+    "Played": false,
+    "Key": "296295",
+    "ItemId": "00000000000000000000000000000000"
+  },
+  "RecursiveItemCount": 30,
+  "ChildCount": 3,
+  "SpecialFeatureCount": 0,
+  "DisplayPreferencesId": "f63033ff6886ecc7083a696cbeced1b0",
+  "Status": "Ended",
+  "AirDays": [],
+  "Tags": [
+    "chain saw",
+    "demon",
+    "demon hunter",
+    "horror",
+    "horror spoof",
+    "living dead"
+  ],
+  "PrimaryImageAspectRatio": 0.66650390625,
+  "DisplayOrder": "aired",
+  "ImageTags": {
+    "Primary": "3996a64571de3667baecda085908ff73",
+    "Banner": "cd5273d8c5f5cb6535ca864577b2da33",
+    "Logo": "0190e099963ee3bfa6b238a8373c923a",
+    "Thumb": "a41457b55f1876950a4031e0d9ab62fa"
+  },
+  "BackdropImageTags": [
+    "878b8043d9d437a4cb8dca3e279d9575"
+  ],
+  "ImageBlurHashes": {
+    "Backdrop": {
+      "878b8043d9d437a4cb8dca3e279d9575": "WZHw.QIo?HxtNGkVxa0LWVnjoLxakCM{S#aKR+of^+MxtRw^Iokq"
+    },
+    "Primary": {
+      "3996a64571de3667baecda085908ff73": "dEFE.d9tEL^+~BE1s.-pE1NItS%M?aI:9uni57?GMyIp"
+    },
+    "Banner": {
+      "cd5273d8c5f5cb6535ca864577b2da33": "HNDR?4={%1-:ELI;EM-pS1~BRPRkbHE1NHE1s:Io"
+    },
+    "Logo": {
+      "0190e099963ee3bfa6b238a8373c923a": "NeHBYxE1IU-;IoWCe.xtNGofRjay0LNGozWBt7s:"
+    },
+    "Thumb": {
+      "a41457b55f1876950a4031e0d9ab62fa": "WMD+PXs.0LtR9ZD*^+ofIoxuRjIUIo%LxaIVRkR*IVxaxtIVNGkW"
+    }
+  },
+  "LocationType": "FileSystem",
+  "MediaType": "Unknown",
+  "EndDate": "2018-04-29T00:00:00.0000000Z",
+  "LockedFields": [],
+  "LockData": false
+}
