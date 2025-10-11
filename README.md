@@ -1,10 +1,5 @@
 # Jellyfin Newsletter
 
-<p align="center">
- <img src="https://img.shields.io/github/license/phalcon22/jellyfin-newsletter"/>
- <img src="https://img.shields.io/github/v/release/phalcon22/jellyfin-newsletter"/>
-</p>
-
 ## How to use
 
 How to generate the html:
