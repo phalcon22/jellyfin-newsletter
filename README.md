@@ -57,5 +57,5 @@ send_email(
 ## What it looks like
 
 <p align='center'>
-    <img src='https://github.com/phalcon22/jellyfin-newsletter/refs/heads/master/example.png?raw=true'/><br>
+    <img src='https://github.com/phalcon22/jellyfin-newsletter/refs/heads/main/example.png?raw=true'/><br>
 </p>
