@@ -26,8 +26,9 @@ newsletter = JellyfinNewsletter(
 )
 newsletter.fetch()
 
-html = newsletter.to_html()
-Path("email.html").write_text(html, encoding="utf-8")
+htmls = newsletter.to_htmls()
+for i, html in enumerate(htmls):
+    Path(f"email_{i}.html").write_text(html, encoding="utf-8")
 ```
 
 How to send the html:

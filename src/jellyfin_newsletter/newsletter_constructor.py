@@ -3,7 +3,7 @@ from typing import Any
 import pendulum
 from dateutil import parser
 
-from jellyfin_newsletter.html_generation import newsletter_to_html
+from jellyfin_newsletter.html_generation import newsletter_to_htmls
 from jellyfin_newsletter.jellyfin_api import JellyfinAPI
 from jellyfin_newsletter.jellyfin_image_type import JellyfinImageType
 from jellyfin_newsletter.utils import runtime_ticks_to_str
@@ -193,5 +193,5 @@ class JellyfinNewsletter:
             [str(serie) for serie in self.series.values()]
         )
 
-    def to_html(self) -> str:
-        return newsletter_to_html(self)
+    def to_htmls(self) -> list[str]:
+        return newsletter_to_htmls(self)

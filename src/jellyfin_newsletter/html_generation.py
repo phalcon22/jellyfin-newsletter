@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import math
 from typing import TYPE_CHECKING
 
 from jellyfin_newsletter import utils
@@ -69,37 +70,43 @@ def _serie_to_html(jellyfin_public_url: str, serie: Serie, template: str) -> str
     )
 
 
-def newsletter_to_html(newsletter: JellyfinNewsletter) -> str:
+def newsletter_to_htmls(newsletter: JellyfinNewsletter) -> list[str]:
     template = utils.load_template("mail_template/template.html")
     header = utils.load_template("mail_template/header.html")
     template_movie = utils.load_template("mail_template/body_movie.html")
     template_serie = utils.load_template("mail_template/body_serie.html")
 
-    cards = []
+    all_cards = []
     for item in newsletter.movies.values():
         html = _movie_to_html(newsletter.api.public_url, item, template_movie)
-        cards.append(html)
+        all_cards.append(html)
 
     for item in newsletter.series.values():
         html = _serie_to_html(newsletter.api.public_url, item, template_serie)
-        cards.append(html)
+        all_cards.append(html)
 
     nb_new_movies = newsletter.get_added_movie_count()
     nb_new_series = newsletter.get_added_serie_count()
     nb_new_episodes = newsletter.get_added_episode_count()
 
-    return template.format(
-        header=header,
-        server_logo_url=newsletter.server_logo_url,
-        jellyfin_public_url=newsletter.api.public_url,
-        header_text=newsletter.header_text,
-        nb_movies=newsletter.total_movies_count - nb_new_movies,
-        nb_new_movies=nb_new_movies,
-        nb_series=newsletter.total_series_count - nb_new_series,
-        nb_new_series=nb_new_series,
-        nb_episodes=newsletter.total_episodes_count - nb_new_episodes,
-        nb_new_episodes=nb_new_episodes,
-        random_fact=newsletter.random_fact,
-        body="\n".join(cards),
-        footer=newsletter.footer,
-    )
+    batch_size = 25
+    cards_batch = [all_cards[i*batch_size:min((i+1)*batch_size, len(all_cards))] for i in range(math.ceil(len(all_cards) / batch_size))]
+
+    return [
+        template.format(
+            header=header,
+            server_logo_url=newsletter.server_logo_url,
+            jellyfin_public_url=newsletter.api.public_url,
+            header_text=newsletter.header_text,
+            nb_movies=newsletter.total_movies_count - nb_new_movies,
+            nb_new_movies=nb_new_movies,
+            nb_series=newsletter.total_series_count - nb_new_series,
+            nb_new_series=nb_new_series,
+            nb_episodes=newsletter.total_episodes_count - nb_new_episodes,
+            nb_new_episodes=nb_new_episodes,
+            random_fact=newsletter.random_fact,
+            body="\n".join(cards),
+            footer=newsletter.footer,
+        )
+        for cards in cards_batch
+    ]
