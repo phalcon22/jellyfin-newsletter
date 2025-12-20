@@ -13,10 +13,10 @@ class Episode:
     def __init__(self, info_dic: dict[str, Any]) -> None:
         self.item_id = info_dic["Id"]
         self.title = info_dic["Name"]
-        self.runtime_ticks = info_dic["RunTimeTicks"]
-        self.duration = runtime_ticks_to_str(info_dic["RunTimeTicks"])
-        self.date = parser.parse(info_dic["PremiereDate"])
-        self.year = self.date.year
+        self.runtime_ticks = info_dic.get("RunTimeTicks")
+        self.duration = runtime_ticks_to_str(info_dic["RunTimeTicks"]) if "RunTimeTicks" in info_dic else None
+        self.date = parser.parse(info_dic["PremiereDate"]) if "PremiereDate" in info_dic else None
+        self.year = self.date.year if self.date else None
         self.index_number = info_dic["IndexNumber"]
 
 
@@ -27,8 +27,8 @@ class Season:
         self.serie_id = self.info_dic["SeriesName"]
         self.item_id = season_id
         self.title = self.info_dic["Name"]
-        self.date = parser.parse(self.info_dic["PremiereDate"])
-        self.year = self.date.year
+        self.date = parser.parse(self.info_dic["PremiereDate"]) if "PremiereDate" in self.info_dic else None
+        self.year = self.date.year if self.date else None
         self.index_number = self.info_dic["IndexNumber"]
         self.available_episode_count = self.info_dic["RecursiveItemCount"]
         self.episodes: dict[str, Episode] = {}
@@ -94,7 +94,7 @@ class Serie:
         for season in self.seasons.values():
             episode_runtime_ticks.extend([episode.runtime_ticks for episode in season.episodes.values()])
 
-        return runtime_ticks_to_str(sum([runtime / len(episode_runtime_ticks) for runtime in episode_runtime_ticks]))
+        return runtime_ticks_to_str(sum([runtime / len(episode_runtime_ticks) for runtime in episode_runtime_ticks if runtime]))
 
     def __str__(self) -> str:
         return f"{self.title} - {len(self.seasons)} seasons:\n" + "\n".join([str(season) for season in self.seasons.values()])
