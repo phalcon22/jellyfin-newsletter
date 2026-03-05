@@ -17,7 +17,7 @@ class Episode:
         self.duration = runtime_ticks_to_str(info_dic["RunTimeTicks"]) if "RunTimeTicks" in info_dic else None
         self.date = parser.parse(info_dic["PremiereDate"]) if "PremiereDate" in info_dic else None
         self.year = self.date.year if self.date else None
-        self.index_number = info_dic["IndexNumber"]
+        self.index_number = info_dic.get("IndexNumber")
 
 
 class Season:
@@ -45,14 +45,16 @@ class Season:
     def get_min_episode(self) -> int:
         min_episode = 9999
         for episode in self.episodes.values():
-            min_episode = min(min_episode, episode.index_number)
+            if episode.index_number:
+                min_episode = min(min_episode, episode.index_number)
 
         return min_episode
 
     def get_max_episode(self) -> int:
         max_episode = -1
         for episode in self.episodes.values():
-            max_episode = max(max_episode, episode.index_number)
+            if episode.index_number:
+                max_episode = max(max_episode, episode.index_number)
 
         return max_episode
 
