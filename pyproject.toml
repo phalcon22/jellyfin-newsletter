@@ -13,6 +13,10 @@ dependencies = [
     "deep-translator>=1.11.4,<2.0.0",
 ]
 
+[build-system]
+requires = ["uv_build>=0.11.3,<0.12"]
+build-backend = "uv_build"
+
 [tool.ruff]
 
 # Same as Black.

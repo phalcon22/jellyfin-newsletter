@@ -106,7 +106,7 @@ wheels = [
 [[package]]
 name = "jellyfin-newsletter"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "deep-translator" },
     { name = "pendulum" },
