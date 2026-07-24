@@ -22,14 +22,10 @@ class JellyfinAPI:
         response.raise_for_status()
         return response.json()["ServerName"]
 
-    def get_image_url(self, item_id: str, image_type: JellyfinImageType, blur_level: int) -> None:
+    def get_image_url(self, item_id: str, image_type: JellyfinImageType, blur_level: int) -> str:
         url = f"{self.public_url}/Items/{item_id}/Images/{image_type}"
 
-        params = {
-            "maxWidth": 300,
-            "maxHeight": 450,
-            "blur": blur_level
-        }
+        params = {"maxWidth": 300, "maxHeight": 450, "blur": blur_level}
 
         return f"{url}?{urlencode(params)}"
 
@@ -54,7 +50,6 @@ class JellyfinAPI:
 
         return [item for item in items if "DateCreated" in item and item["DateCreated"] >= since_date.isoformat()]
 
-
     def get_season_info_dic(self, season_id: str) -> dict | None:
         response = requests.get(
             url=f"{self.public_url}/Users/{self.admin_user_id}/Items/{season_id}",
@@ -64,7 +59,6 @@ class JellyfinAPI:
         )
         response.raise_for_status()
         return response.json()
-
 
     def get_serie_info_dic(self, serie_id: str) -> dict | None:
         response = requests.get(
@@ -76,7 +70,6 @@ class JellyfinAPI:
         response.raise_for_status()
         return response.json()
 
-
     def get_movie_info_dic(self, movie_id: str) -> dict | None:
         response = requests.get(
             url=f"{self.public_url}/Users/{self.admin_user_id}/Items/{movie_id}",
@@ -86,7 +79,6 @@ class JellyfinAPI:
         )
         response.raise_for_status()
         return response.json()
-
 
     def get_content_count(self) -> dict | None:
         response = requests.get(

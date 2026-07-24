@@ -38,7 +38,7 @@ class Season:
 
         if episode.item_id in self.episodes:
             msg = f"Episode appeared twice {episode.item_id}"
-            raise Exception(msg)
+            raise ValueError(msg)
 
         self.episodes[episode.item_id] = episode
 
@@ -169,7 +169,7 @@ class JellyfinNewsletter:
 
         if movie.item_id in self.movies:
             msg = f"Movie appeared twice {movie.item_id}"
-            raise Exception(msg)
+            raise ValueError(msg)
 
         self.movies[movie.item_id] = movie
 

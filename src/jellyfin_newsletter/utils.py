@@ -10,5 +10,6 @@ def runtime_ticks_to_str(runtime_ticks: int) -> str:
         return f"{hour}h{minute:02}"
     return f"{minute:02} min"
 
-def load_template(filename: str) -> bytes:
+
+def load_template(filename: str) -> str:
     return resources.files("jellyfin_newsletter.assets").joinpath(filename).read_text(encoding="utf-8")

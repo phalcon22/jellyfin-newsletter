@@ -10,10 +10,11 @@ if TYPE_CHECKING:
     from jellyfin_newsletter.newsletter_constructor import JellyfinNewsletter, Movie, Season, Serie
 
 NEW_BADGES = {
-    "series":  '<span class="info-badge" style="background:#ff9800;">New Series</span>',
-    "season":  '<span class="info-badge" style="background:#9c27b0;">New Season</span>',
+    "series": '<span class="info-badge" style="background:#ff9800;">New Series</span>',
+    "season": '<span class="info-badge" style="background:#9c27b0;">New Season</span>',
     "episode": '<span class="info-badge" style="background:#00bcd4;">New Episodes</span>',
 }
+
 
 def _movie_to_html(jellyfin_public_url: str, movie: Movie, template: str) -> str:
     return template.format(
@@ -23,7 +24,7 @@ def _movie_to_html(jellyfin_public_url: str, movie: Movie, template: str) -> str
         title=movie.title,
         duration=movie.duration,
         year=movie.year,
-        summary=""
+        summary="",
     )
 
 
@@ -33,11 +34,7 @@ def _season_to_html(season: Season) -> str:
     min_episode = season.get_min_episode()
     max_episode = season.get_max_episode()
     episode_span = f"{min_episode}-{max_episode}" if min_episode != max_episode else min_episode
-    return template_season.format(
-        title=season.title,
-        year=season.year,
-        episode_span=episode_span
-    )
+    return template_season.format(title=season.title, year=season.year, episode_span=episode_span)
 
 
 def _serie_to_html(jellyfin_public_url: str, serie: Serie, template: str) -> str:
@@ -56,7 +53,6 @@ def _serie_to_html(jellyfin_public_url: str, serie: Serie, template: str) -> str
     if len(badges) == 0:
         badges.append(NEW_BADGES["episode"])
 
-
     return template.format(
         jellyfin_public_url=jellyfin_public_url,
         poster_image=serie.images[JellyfinImageType.PRIMARY],
@@ -66,7 +62,7 @@ def _serie_to_html(jellyfin_public_url: str, serie: Serie, template: str) -> str
         duration=serie.get_average_episode_duration(),
         year=serie.year,
         body_seasons=body_seasons,
-        summary=""
+        summary="",
     )
 
 
@@ -90,7 +86,10 @@ def newsletter_to_htmls(newsletter: JellyfinNewsletter) -> list[str]:
     nb_new_episodes = newsletter.get_added_episode_count()
 
     batch_size = 25
-    cards_batch = [all_cards[i*batch_size:min((i+1)*batch_size, len(all_cards))] for i in range(math.ceil(len(all_cards) / batch_size))]
+    cards_batch = [
+        all_cards[i * batch_size : min((i + 1) * batch_size, len(all_cards))]
+        for i in range(math.ceil(len(all_cards) / batch_size))
+    ]
 
     return [
         template.format(
