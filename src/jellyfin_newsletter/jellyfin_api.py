@@ -11,7 +11,7 @@ class JellyfinAPI:
         self.public_url = public_url
         self.api_key = api_key
         self.admin_user_id = admin_user_id
-        self.headers = {"X-Emby-Token": self.api_key}
+        self.headers = {"Authorization": f"MediaBrowser Token={self.api_key}"}
 
     def get_server_name(self) -> str:
         response = requests.get(

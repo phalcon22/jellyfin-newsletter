@@ -12,7 +12,7 @@ from jellyfin_newsletter.utils import runtime_ticks_to_str
 class Episode:
     def __init__(self, info_dic: dict[str, Any]) -> None:
         self.item_id = info_dic["Id"]
-        self.title = info_dic["Name"]
+        self.title = info_dic.get("Name")
         self.runtime_ticks = info_dic.get("RunTimeTicks")
         self.duration = runtime_ticks_to_str(info_dic["RunTimeTicks"]) if "RunTimeTicks" in info_dic else None
         self.date = parser.parse(info_dic["PremiereDate"]) if "PremiereDate" in info_dic else None
