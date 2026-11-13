@@ -1,29 +1,35 @@
 import logging
+import time
 
+import argostranslate.package
+import argostranslate.translate
 import requests
-from deep_translator import GoogleTranslator
 
 logger = logging.getLogger(__name__)
 
 
-def random_fact(lang: str) -> tuple[str, str]:
+def random_fact() -> str:
     resp = requests.get(
         url="https://uselessfacts.jsph.pl" + "/api/v2/facts/random",
         timeout=10,
     )
 
-    fact_en = resp.json()["text"]
-    fact_translated = fact_en if lang == "en" else GoogleTranslator(source="en", target=lang).translate(fact_en)
-
-    return fact_en, fact_translated
+    return resp.json()["text"]
 
 
 def propose_random_fact(lang: str) -> str:
+
+    argostranslate.package.update_package_index()
+    packages = argostranslate.package.get_available_packages()
+    package = next(p for p in packages if p.from_code == "en" and p.to_code == lang)
+    argostranslate.package.install_from_path(package.download())
     accepted = False
     fix_awaiting = False
+    time.sleep(0.5)
     while not accepted:
         if not fix_awaiting:
-            fact_en, fact_fr = random_fact(lang)
+            fact_en = random_fact()
+            fact_fr = argostranslate.translate.translate(q=fact_en, from_code="en", to_code=lang)
         fix_awaiting = False
 
         resp = input(f"Proposition:\n{fact_en}\n{fact_fr}\n\nDo you like it ? [Y]es, [N]o, [F]ix translation: ").lower()

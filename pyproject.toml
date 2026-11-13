@@ -2,19 +2,17 @@
 name = "jellyfin-newsletter"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "axel.ribon",email = "axel.ribon@gmail.com"}
-]
+authors = [{ name = "axel.ribon", email = "axel.ribon@gmail.com" }]
 readme = "README.md"
-requires-python = ">=3.13,<4.0"
+requires-python = ">=3.14,<4.0"
 dependencies = [
-    "pendulum>=3.1.0,<4.0.0",
-    "requests>=2.32.5,<3.0.0",
-    "deep-translator>=1.11.4,<2.0.0",
+  "pendulum>=3.3.0,<4.0.0",
+  "requests>=2.34.2,<3.0.0",
+  "argostranslate>=1.11.0",
 ]
 
 [build-system]
-requires = ["uv_build>=0.11.3,<0.12"]
+requires = ["uv_build>=0.13.8,<0.14"]
 build-backend = "uv_build"
 
 [tool.ruff]
@@ -24,7 +22,7 @@ line-length = 130
 indent-width = 4
 
 # Assume Python 3.13
-target-version = "py313"
+target-version = "py314"
 
 [tool.ruff.lint]
 # Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`) codes by default.
